@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/src">
+        <file>src/play-icon.png</file>
+        <file>src/1.mp3</file>
+        <file>src/2.mp3</file>
+    </qresource>
+</RCC>
