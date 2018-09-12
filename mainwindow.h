@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "countdown.h"
+#include <QAbstractButton>
 
 namespace Ui {
 class MainWindow;
@@ -20,10 +21,15 @@ public:
 private slots:
     void on_pushButton_clicked();
     void receive_countd(int code);//接收传递过来的数据的槽
+    void on_actionABOUT_triggered();
+    void on_actionHELP_triggered();
+    void onButtonClicked(QAbstractButton *button);
 
 private:
     Ui::MainWindow *ui;
     countdown countd;
+
+
 };
 
 #endif // MAINWINDOW_H

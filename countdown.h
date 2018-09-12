@@ -41,7 +41,7 @@ private slots:
     void on_quit_clicked();
 
 signals:
-    void send_countd(int);
+    void send_countd(int); //countdown->main
 };
 
 #endif // COUNTDOWN_H
